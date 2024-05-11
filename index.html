@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
     <title>Horizontal Scroll GSAP</title>
 </head>
 <body>
-    
+    <main>
+        <header>
+            <div class="logo">
+                <h2>Logo</h2>
+            </div>
+            <nav>
+                <h2>Menu</h2>
+            </nav>
+        </header>
+        <section class="horizontal-wrapper">
+            <div class="sections">
+                <section class="tokyo">
+                    <div class="image"></div>
+                    <div class="description">
+                        <h1 class="title">Tokyo</h1>
+                        <h2 class="number">O1</h2>
+                        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt atque quis vero ullam, culpa necessitatibus similique cum libero. Tempore maxime necessitatibus quam, veritatis veniam exercitationem!</p>
+                    </div>
+                </section>
+
+                <section class="kyoto">
+                    <div class="image"></div>
+                    <div class="description">
+                        <h1 class="title">Kyoto</h1>
+                        <h2 class="number">O2</h2>
+                        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt atque quis vero ullam, culpa necessitatibus similique cum libero. Tempore maxime necessitatibus quam, veritatis veniam exercitationem!</p>
+                    </div>
+                </section>
+                <section class="kobe">
+                    <div class="image"></div>
+                    <div class="description">
+                        <h1 class="title">Kobe</h1>
+                        <h2 class="number">O3</h2>
+                        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt atque quis vero ullam, culpa necessitatibus similique cum libero. Tempore maxime necessitatibus quam, veritatis veniam exercitationem!</p>
+                    </div>
+                </section>
+                <section class="nagoya">
+                    <div class="image"></div>
+                    <div class="description">
+                        <h1 class="title">Nagoya</h1>
+                        <h2 class="number">O4</h2>
+                        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt atque quis vero ullam, culpa necessitatibus similique cum libero. Tempore maxime necessitatibus quam, veritatis veniam exercitationem!</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="scroll-wrapper">
+        </section>
+        <footer>
+            <div class="footer-nav">
+                <h3>Logo</h3>
+
+                <ul>
+                    <li>Tokyo</li>
+                    <li>Kyoto</li>
+                    <li>Kobe</li>
+                    <li>Nagoya</li>
+                </ul>
+                <div class="socials">
+                    <li>Insta</li>
+                    <li>X</li>
+                    <li>TikTok</li>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.6/ScrollTrigger.min.js" integrity="sha512-+LXqbM6YLduaaxq6kNcjMsQgZQUTdZp7FTaArWYFt1nxyFKlQSMdIF/WQ/VgsReERwRD8w/9H9cahFx25UDd+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
