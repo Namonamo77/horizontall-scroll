@@ -1,0 +1,51 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background: rgb(255, 233, 236);
+}
+header{
+    position: fixed;
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+.image {
+    width: 100vw;
+    height: 70vh;
+    background: linear-gradient(150deg, rgba(255,222,222,1) 0%, rgba(255,176,132,1) 100%);
+
+}
+.town{
+    height: 100vh;
+    display: flex;
+    padding: 4em 2em 2em;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+
+.number{
+    font-family: "Noto Serif Display", serif;
+    font-size: 12rem;
+    font-weight: 100;
+    margin-left: -0.5em;
+}
+.title {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgb(203, 81, 102);
+}
+.description{
+    width: 70%;
+}
