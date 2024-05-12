@@ -4,8 +4,15 @@
 
 body {
     margin: 0;
+    width: 100vw;
     font-family: "Montserrat", sans-serif;
     background: rgb(255, 233, 236);
+    overflow-x: hidden;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 header{
     position: fixed;
@@ -18,6 +25,11 @@ header{
 h1, h2, h3, p {
     margin: 0;
 }
+.sections{
+    display: flex;
+    flex-wrap: nowrap;
+    width: fit-content;
+}
 .image {
     width: 100vw;
     height: 70vh;
@@ -26,6 +38,7 @@ h1, h2, h3, p {
 }
 .town{
     height: 100vh;
+    width: 100vw;
     display: flex;
     padding: 4em 2em 2em;
     justify-content: space-between;
@@ -48,4 +61,19 @@ h1, h2, h3, p {
 }
 .description{
     width: 70%;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5em;
+    padding: 2em;
+    background: rgb(90, 17, 29);
+    color: #fff;
+}
+
+.scroll-wrapper{
+    background: pink;
+    height: 500px;
 }
