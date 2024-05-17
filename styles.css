@@ -25,6 +25,9 @@ header{
 h1, h2, h3, p {
     margin: 0;
 }
+img{
+    max-width: 100%;
+}
 .sections{
     display: flex;
     flex-wrap: nowrap;
@@ -67,13 +70,54 @@ h1, h2, h3, p {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 5em;
+    gap: 8em;
     padding: 2em;
     background: rgb(90, 17, 29);
     color: #fff;
 }
+.socials{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    gap: 2em;
+}
 
 .scroll-wrapper{
     background: pink;
-    height: 500px;
+    height: 100vh;
+    padding: 5em 2em;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.card{
+    background: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    width: 25vw;
+}
+.card img{
+    border-radius: 4px;
+}
+.title2{
+    font-family: "Noto Serif Display", serif; 
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(90, 17, 29);
+    margin-bottom: 2em;
+}
+
+.card-title{
+    font-weight: 300;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: rgb(203, 81, 102);
+    padding: 0.5em 0;
+}
+.card-description{
+    font-size: 0.8rem;
 }
